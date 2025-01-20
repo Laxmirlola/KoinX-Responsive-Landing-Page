@@ -92,6 +92,11 @@ Ensure you have the following installed on your machine:
 - **Endpoint**: `https://api.coingecko.com/api/v3/search/trending`
 - **Example Response**: [Sample API Response](https://www.notion.so/Sample-API-Response-search-trending-e85623b447e94deb9da67d3b112b8761?pvs=21)
 
+### Desktop view
+<p align="center">
+  <img src="./review.png" width="1000" title="review_image">
+</p>
+
 ## Project Structure
 
 ```
