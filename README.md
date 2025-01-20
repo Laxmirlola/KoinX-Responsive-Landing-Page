@@ -51,22 +51,16 @@ Ensure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/Laxmirlola/KoinX-Responsive-Landing-Page)
    ```
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd koinx-landing-page
-   ```
-
-3. Install dependencies:
+2. Open terminal and install dependencies:
 
    ```bash
    npm install
    ```
 
-4. Start the development server:
+3. Start the development server:
 
    ```bash
    npm run dev
