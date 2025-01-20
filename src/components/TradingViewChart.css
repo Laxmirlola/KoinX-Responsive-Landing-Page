@@ -1,0 +1,65 @@
+.tradingview-chart {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjust the height to fit your layout */
+  margin: 0;
+  border: none;
+  background-color: #ffffff; /* White background for clean appearance */
+
+  overflow: hidden;
+}
+
+#tradingview_widget {
+  width: 100%;
+  height: 100%;
+}
+
+.tradingview-chart .toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #f1f3f6; /* Toolbar separator */
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.tradingview-chart .toolbar a {
+  color: #0073e6; /* Blue link color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tradingview-chart .toolbar a:hover {
+  text-decoration: underline;
+}
+
+.tradingview-chart .chart-title {
+  padding: 10px;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.tradingview-chart .chart-intervals {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 1px solid #f1f3f6; /* Separator at the bottom */
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+}
+
+.tradingview-chart .chart-intervals span {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tradingview-chart .chart-intervals span:hover {
+  background-color: #0073e6; /* Blue highlight on hover */
+  color: white; /* White text for contrast */
+}

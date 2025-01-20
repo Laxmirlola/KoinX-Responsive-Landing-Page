@@ -1,0 +1,124 @@
+.performance-fundamentals {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.performance-section,
+.fundamentals-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.performance-section h3,
+.fundamentals-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.performance-range {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.low,
+.high {
+  align-self: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.range-bar {
+  position: relative;
+  flex: 1;
+  height: 8px;
+  background: linear-gradient(to right, red, orange, green);
+  border-radius: 4px;
+}
+
+.current-position {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: black;
+}
+
+.range-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+}
+
+.fundamentals-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #333;
+  gap: 12px;
+}
+
+.fundamentals-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.fundamentals-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  gap: 12px;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left div {
+  font-size: 1rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right div {
+  font-size: 1rem;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: #dedbdb; /* Adjust the color as necessary */
+  margin: 0.2rem 0; /* Adjust the margin as necessary */
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+@media (max-width: 500px) {
+  .fundamentals-grid {
+    flex-direction: column;
+  }
+}

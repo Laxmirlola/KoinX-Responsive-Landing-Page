@@ -1,0 +1,64 @@
+/* MainContent.css */
+.main-content {
+  flex: 1;
+  padding: 20px 20px 0 20px;
+  width: 100%;
+  margin: 0;
+}
+
+.crypto-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.crypto-price {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0 10px 20px;
+}
+
+.crypto-logo {
+  height: 40px; /* Adjust the height as necessary */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.rank {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 4px;
+  margin-left: 4px;
+  font-size: 1rem;
+  background-color: #7e8294;
+  color: white;
+}
+
+.tabs button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tabs button:hover {
+  background-color: #007bff;
+  color: white;
+}
+.divider {
+  border: 0;
+  height: 1px;
+  background: #dedbdb; /* Adjust the color as necessary */
+  margin: 1rem 0; /* Adjust the margin as necessary */
+}
+
+.positive {
+  height: 1rem;
+  align-self: center;
+  margin-left: 1.2rem;
+  color: green;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: rgba(205, 243, 220, 0.655);
+}

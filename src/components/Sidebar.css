@@ -1,0 +1,50 @@
+/* Sidebar.css */
+.sidebar {
+  width: 320px; /* Adjust the width as necessary */
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+  background-color: #f5f7fa;
+}
+
+.promo {
+  background-color: #0051ff;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.promo-button {
+  margin-top: 10px;
+  padding: 10px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.trending-coins {
+  margin-top: 20px;
+}
+
+.trending-coins ul {
+  list-style: none;
+  padding: 0;
+}
+
+.trending-coins li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.positive {
+  color: green;
+}
+
+@media (max-width: 850px) {
+  .sidebar {
+    display: none;
+  }
+}

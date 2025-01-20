@@ -1,0 +1,53 @@
+.team {
+  max-width: 900px;
+}
+
+.team-info {
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+.team-members {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.team-member {
+  display: flex;
+  padding: 0.8rem;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.9rem;
+  flex: 1;
+  min-width: 250px;
+  background-color: rgb(213, 232, 248);
+  border: 1.2px solid rgb(18, 105, 245);
+  border-radius: 8px;
+}
+
+.team-profile {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-photo {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.team-profile img {
+  width: 80%;
+  align-self: center;
+  height: 80%;
+  border-radius: 1rem;
+}
+
+.team-description {
+  width: 60%;
+  padding: 5px;
+}

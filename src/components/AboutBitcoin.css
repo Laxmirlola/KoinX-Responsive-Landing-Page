@@ -1,0 +1,21 @@
+.about-bitcoin-container {
+  padding: 10px 20px 0 20px;
+  border-radius: 5px;
+}
+
+.about-bitcoin-container h2,
+.about-bitcoin-container h3 {
+  margin-top: 0;
+}
+
+.about-bitcoin-container p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: #dedbdb; /* Adjust the color as necessary */
+  margin: 1rem 0; /* Adjust the margin as necessary */
+}
